@@ -11,7 +11,7 @@ namespace JavascriptPlayground.Controllers
         // GET: NumberGuess
         public ActionResult Index()
         {
-            return View(
+            return View("FirstSplash");
         }
     }
 }
